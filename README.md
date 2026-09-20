@@ -1,2 +1,3 @@
 # merngil.com
-merngil.com introduction
+
+Redirect to iq.merngil.com

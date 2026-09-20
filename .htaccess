@@ -1,0 +1,4 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteRule ^(.*)$ https://iq.merngil.com/$1 [R=301,L]
+</IfModule>

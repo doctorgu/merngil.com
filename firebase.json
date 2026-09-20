@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "public": ".",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "redirects": [
+      {
+        "source": "/**",
+        "destination": "https://iq.merngil.com",
+        "type": 301
+      }
+    ]
+  }
+}
