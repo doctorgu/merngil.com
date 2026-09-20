@@ -1,0 +1,9 @@
+server {
+    listen ${PORT};
+    server_name _;
+
+    # Redirection to iq.merngil.com by header (HTTP 301 Moved Permanently)
+    location / {
+        return 301 https://iq.merngil.com$request_uri;
+    }
+}
